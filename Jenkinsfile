@@ -7,6 +7,6 @@ node('JDK8') {
         }
          stage('Archiving and Test Results') {
         junit stdioRetention: '', testResults: '**/surefire-reports/*xml'
-        archiveArtifacts artifacts: '**.war', followSymlinks: false
+        archiveArtifacts artifacts: '**/*.war', followSymlinks: false
         }
 } 
