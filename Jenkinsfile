@@ -1,4 +1,4 @@
-node(JDK8) {
+node('JDK8') {
         stage('SourceCode') {
        git 'https://github.com/vignesh2507/game-of-life.git'
         }
