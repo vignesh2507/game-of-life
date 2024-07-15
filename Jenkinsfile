@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		 stage('SourceCode') {
 			steps {
-			git 'https://github.com/wakaleo/game-of-life.git'
+			git 'https://github.com/vignesh2507/game-of-life.git'
 		}
 			}
 			stage('Build the code') {
