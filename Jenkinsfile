@@ -11,7 +11,6 @@ pipeline {
 			sh 'mvn clean package'
 		}
 			}
-
 		stage('Archiving and Test Results') {
 		steps {	
 			stage('Archiving and Test Results') {
